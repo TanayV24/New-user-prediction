@@ -11,7 +11,7 @@
 
 **A machine learning project that analyzes user behavior and predicts whether a new user will convert, register, or perform key engagement actions based on historical data.**
 
-[📊 View Notebooks](#) | [📖 Documentation](#features) | [🐛 Report Bug](https://github.com/TanayV24/New-user-prediction/issues) | [💡 Request Feature](https://github.com/TanayV24/New-user-prediction/issues)
+ [🐛 Report Bug](https://github.com/TanayV24/New-user-prediction/issues) | [💡 Request Feature](https://github.com/TanayV24/New-user-prediction/issues)
 
 </div>
 
