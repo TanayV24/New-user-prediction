@@ -1,197 +1,225 @@
-🎯 New User Prediction
+<div align="center">
 
-Machine Learning Model for Predicting New User Conversion
-Python • Scikit-Learn • Jupyter • Data Science
+# 🤖 New User Prediction
 
-A data-driven machine learning project that predicts whether a new user will convert, sign up, or perform a key action based on historical patterns using advanced preprocessing, feature engineering, and classification models.
+### Machine Learning System for Predicting New User Conversion
 
-🚀 Live Demo (Optional) | 📖 Documentation | 🐛 Report Bug | 💡 Request Feature
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data--Analysis-150458?style=for-the-badge&logo=pandas)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
 
-✨ Features
-📊 Data Science Features
+**A machine learning project that analyzes user behavior and predicts whether a new user will convert, register, or perform key engagement actions based on historical data.**
 
-🔍 Exploratory Data Analysis (EDA) — Understand user behaviors and patterns
+[📊 View Notebooks](#) | [📖 Documentation](#features) | [🐛 Report Bug](https://github.com/TanayV24/New-user-prediction/issues) | [💡 Request Feature](https://github.com/TanayV24/New-user-prediction/issues)
 
-🧹 Data Cleaning Pipeline — Handles missing values, outliers & categorical encoding
+</div>
 
-🧱 Feature Engineering — Normalization, one-hot encoding, and derived features
+---
 
-🤖 ML Models — Logistic Regression, Random Forest, Decision Tree, SVM (based on your repo)
+## ✨ Features
 
-🎯 Prediction Engine — Predict new user conversion probability
+### 📊 **Data Science Features**
+- 🔍 **Exploratory Data Analysis (EDA)** – Understand user trends & behavior  
+- 🧹 **Data Preprocessing** – Handles missing values, encoding, scaling  
+- 🧱 **Feature Engineering** – Transformations for better ML performance  
+- 🤖 **ML Modeling** – Logistic Regression, Random Forest, SVM, Decision Trees  
+- 📈 **Model Evaluation** – Accuracy, precision, recall, F1-score, ROC-AUC  
+- 💾 **Model Exporting** – Save trained ML models using joblib/pickle  
+- 📊 **Prediction Pipeline** – Predicts new user conversion probability  
 
-📈 Model Evaluation — Confusion matrix, accuracy, precision, recall, ROC-AUC
+### 🔧 **Technical Features**
+- 📘 **Jupyter Notebook workflow** – Clean step-by-step structure  
+- 🧩 **Modular Python scripts** – preprocessing, models, utils  
+- 🚀 **Reproducible ML pipeline**  
+- 🔁 **Easy dataset swapping** – Works with any CSV dataset  
+- 📂 **Organized codebase** – notebooks + src architecture  
 
-💾 Model Saving — Export trained model using joblib/pickle
+---
 
-🧪 Jupyter Notebooks — End-to-end experiment tracking
+## 🛠 Tech Stack
 
-🔧 Technical Features
+<table>
+<tr>
+<td width="50%" valign="top">
 
-⚡ Fast & reproducible ML pipeline
+### Core ML Stack
+- **Language:** Python 3.8+  
+- **Data Processing:** Pandas, NumPy  
+- **ML Models:** Scikit-Learn  
+- **Visualization:** Matplotlib, Seaborn  
+- **Notebook Environment:** Jupyter Notebook  
 
-🔍 Clean and modular notebook structure
+</td>
+<td width="50%" valign="top">
 
-📂 Organized project folder system
+### Extra Tools
+- **Model Saving:** joblib / pickle  
+- **Environment:** Virtualenv  
+- **File Handling:** CSV datasets  
+- **Deployment Ready:** Can integrate with Flask/FastAPI  
 
-📡 Ready for API/production integration
+</td>
+</tr>
+</table>
 
-🔁 Easy retraining with new datasets
+---
 
-🧠 Can be extended with deep learning models
+## 📋 Prerequisites
 
-🛠️ Tech Stack
-🧪 Core Technologies
-Component	Technology
-Language	Python 3.8+
-ML Framework	Scikit-Learn
-Data Handling	Pandas, NumPy
-Visualization	Matplotlib, Seaborn
-Experimentation	Jupyter Notebook
-Model Saving	joblib / pickle
-📋 Prerequisites
+Install these tools:
 
-Make sure you have:
+| Tool | Version | Download |
+|------|---------|----------|
+| 🐍 Python | 3.8+ | https://python.org |
+| 📘 Jupyter | Latest | `pip install notebook` |
+| 📦 pip | Latest | Comes with Python |
+| 💻 Git | Latest | https://git-scm.com |
 
-Tool	Version	Download
-🐍 Python	3.8 or higher	https://python.org
+Check installation:
 
-📦 pip	Latest	Comes with Python
-📘 Jupyter	Latest	pip install jupyter
-💻 Git	Latest	https://git-scm.com
+```
 
-Verify installation:
-
-python --version   # Should show 3.8+
+python --version
 pip --version
 jupyter --version
 
-⚙️ Installation & Setup
-🚀 Quick Start (3 Minutes)
+```
 
-Clone the repository:
+---
 
-git clone https://github.com/TanayV24/New-user-prediction.git
+## ⚙️ Installation & Setup
+
+### 🚀 Quick Start
+
+1. **Clone the Repository**
+```
+
+git clone [https://github.com/TanayV24/New-user-prediction.git](https://github.com/TanayV24/New-user-prediction.git)
 cd New-user-prediction
 
+```
 
-Create a virtual environment (recommended):
+2. **Create Virtual Environment**
+```
 
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate     # Windows: venv\Scripts\activate
 
+```
 
-Install dependencies:
+3. **Install Dependencies**
+```
 
 pip install -r requirements.txt
 
+```
 
-Launch Jupyter Notebook:
+4. **Launch Jupyter Notebook**
+```
 
 jupyter notebook
 
-🎮 How to Use
+```
 
-📁 Open the project folder in Jupyter
+---
 
-📘 Run each notebook step-by-step
+## 🎮 How to Use
 
-🧹 Preprocess the dataset
+1. Open `/notebooks` folder inside Jupyter  
+2. Run notebooks in order:  
+   - `0_data_exploration.ipynb`  
+   - `1_preprocessing_and_feature_engineering.ipynb`  
+   - `2_model_training_and_evaluation.ipynb`  
+3. Train ML models and evaluate results  
+4. Export final model (joblib/pickle)  
+5. Use `src/model.py` to make predictions on new data  
 
-🧠 Train machine learning models
+---
 
-📊 Compare accuracy & metrics
+## 📁 Project Structure
 
-🎯 Use the final model to predict new user behavior
+```
 
-💾 Save/export model for deployment
-
-📁 Project Structure
 New-user-prediction/
 │
-├── data/                      # Optional dataset directory
+├── data/                         # (Optional) dataset folder
 │
-├── notebooks/                 # Jupyter Notebooks
+├── notebooks/                    # Jupyter Notebooks
 │   ├── 0_data_exploration.ipynb
 │   ├── 1_preprocessing_and_feature_engineering.ipynb
 │   └── 2_model_training_and_evaluation.ipynb
 │
-├── src/                       # Modular Python scripts (optional)
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model.py
-│   └── utils.py
+├── src/
+│   ├── preprocessing.py          # Data cleaning functions
+│   ├── feature_engineering.py    # Feature transformations
+│   ├── model.py                  # Training & prediction utilities
+│   └── utils.py                  # Helper functions
 │
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Ignored files
-└── README.md                  # Documentation
+├── requirements.txt              # Python dependencies
+└── README.md                     # This file
 
-🔧 ML Pipeline Overview
-📝 Step 1 — Data Cleaning
+````
 
-✔ Remove duplicates
-✔ Handle missing values
-✔ Outlier detection
-✔ Categorical encoding
+---
 
-🧪 Step 2 — Exploration (EDA)
+## 🔧 Example Prediction
 
-✔ Correlation heatmaps
-✔ Distribution plots
-✔ Feature relationships
-✔ Conversion behavior patterns
-
-🧱 Step 3 — Feature Engineering
-
-✔ Scaling & normalization
-✔ One-hot encoding
-✔ Interaction features
-
-🤖 Step 4 — Model Training
-
-Algorithms included (or recommended):
-
-Logistic Regression
-
-Random Forest
-
-Decision Tree
-
-Support Vector Machine
-
-XGBoost (optional)
-
-📈 Step 5 — Evaluation
-
-Confusion Matrix
-
-Classification Report
-
-Accuracy, Precision, Recall
-
-ROC Curve & AUC Score
-
-🔌 Example Prediction Code
+```python
 from joblib import load
 import pandas as pd
 
-model = load('model.pkl')
+model = load("model.pkl")
 
-new_user = pd.DataFrame([{
-    "age": 24,
-    "pages_visited": 12,
-    "time_on_app": 140,
-    "referral": "instagram"
+sample = pd.DataFrame([{
+    "age": 23,
+    "time_on_app": 120,
+    "pages_visited": 8,
+    "referral": "facebook"
 }])
 
-prediction = model.predict(new_user)
-probability = model.predict_proba(new_user)
+prediction = model.predict(sample)
+probability = model.predict_proba(sample)
 
-print(prediction, probability)
+print("Prediction:", prediction)
+print("Confidence:", probability)
+````
 
-🐛 Troubleshooting
-Issue	Solution
-Notebook not opening	Install Jupyter with pip install notebook
-Import errors	Reinstall deps: pip install -r requirements.txt
-Model not accurate	Try feature scaling, tuning, or new algorithms
-Dataset missing	Add your dataset to /data folder
+---
+
+## 🐛 Troubleshooting
+
+<details>
+<summary>Jupyter Notebook not opening</summary>
+
+Run:
+
+```
+pip install notebook
+jupyter notebook
+```
+
+</details>
+
+<details>
+<summary>Import errors</summary>
+
+Reinstall dependencies:
+
+```
+pip install -r requirements.txt --upgrade
+```
+
+</details>
+
+<details>
+<summary>Model accuracy is low</summary>
+
+Try:
+
+* Scaling data
+* Feature selection
+* Different ML algorithms
+* Hyperparameter tuning
+
+</details>
